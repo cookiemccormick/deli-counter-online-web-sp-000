@@ -3,8 +3,8 @@ def line(katz_deli)
   line = []
   katz_deli.each_with_index do |customer, index|
     line << puts "#{index + 1}. #{customer}"
+    line
   end
-  line
   else
   puts "The line is currently empty."
 end
